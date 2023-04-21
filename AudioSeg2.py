@@ -62,7 +62,7 @@ step_duration = 0.03/10
 
 '''
 # Change the arguments and the input file here
-input_file = 'C:\github\dataset_raw'
+input_file = 'C:\github\dataset_raw\wayne.mp3'
 output_dir = 'C:\github\output'
 min_silence_length = 0.6  # The minimum length of silence at which a split may occur [seconds]. Defaults to 3 seconds.
 silence_threshold = 1e-4  # The energy level (between 0.0 and 1.0) below which the signal is regarded as silent.
