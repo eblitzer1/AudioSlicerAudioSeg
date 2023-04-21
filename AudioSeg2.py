@@ -62,8 +62,8 @@ step_duration = 0.03/10
 
 '''
 # Change the arguments and the input file here
-input_file = 'D:\Downloads\github\dataset_raw'
-output_dir = 'D:\Downloads\github\output'
+input_file = 'C:\github\dataset_raw'
+output_dir = 'C:\github\output'
 min_silence_length = 0.6  # The minimum length of silence at which a split may occur [seconds]. Defaults to 3 seconds.
 silence_threshold = 1e-4  # The energy level (between 0.0 and 1.0) below which the signal is regarded as silent.
 step_duration = 0.03/10   # The amount of time to step forward in the input file after calculating energy. Smaller value = slower, but more accurate silence detection. Larger value = faster, but might miss some split opportunities. Defaults to (min-silence-length / 10.).
